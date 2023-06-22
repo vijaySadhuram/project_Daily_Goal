@@ -1,0 +1,45 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.bar-graph {
+  width: 100%;
+  background-color: #e0e0e0;
+  transition: height 0.5s ease;
+}
+
+.pie-chart {
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p{
+  color: rgb(78, 78, 255);
+}
