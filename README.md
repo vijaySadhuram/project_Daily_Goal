@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+### Task Management App using ReactJS with Local Storage, React Hooks (useState and useEffect)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Live Demo
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+This project aims to create a Task Management application using ReactJS, incorporating concepts 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+such as local storage, React Hooks (specifically useState and useEffect), and validation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Key Features:
 
-### `npm test`
+# Task Creation: 
+Users can add new tasks to the application by providing a task description. The entered task will 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+be validated to ensure it is not empty or contains only whitespace characters.
 
-### `npm run build`
+# Task Deletion: 
+Users can delete existing tasks from the application. Each task will have a 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+corresponding delete button, allowing users to remove tasks from the list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Local Storage:  The application will utilize the browser's local storage to persist the task list 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+even after refreshing or closing the browser window. This ensures that tasks remain intact and can 
 
-### `npm run eject`
+be accessed later.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Hooks (useState and useEffect): The useState hook will be used to manage the task list state 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+and update it whenever a new task is added or an existing task is deleted. The useEffect hook will 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+be utilized to synchronize the task list with the local storage, ensuring that any modifications 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+are reflected consistently.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Validation:
+ 
+ The application will implement validation to ensure that task descriptions meet specific criteria. 
+ 
+ It will prevent users from adding empty or whitespace-only tasks. Proper error messages or visual 
+ 
+ cues will be displayed to guide the user in providing valid task descriptions.
