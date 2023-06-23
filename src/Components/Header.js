@@ -2,8 +2,8 @@ import React from 'react'
 
 function Header() {
   return (
-    <nav>Header</nav>
+    <nav>Get Ready to complete your Goal</nav>
   )
 }
 
-export default Header
+export default Header;

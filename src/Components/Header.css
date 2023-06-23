@@ -1,20 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid crimson; */
+}
+body{
+    background-color: antiquewhite;
+    
+}
 nav{
     background-color: blue;
-
-    /* margin-bottom: 2px; */
-}
-input{
+    padding: 20px;
+    /* position: sticky; */
+   text-align: center;
+      
+   }
+/* input{
     outline: none;
-    margin-right: 2px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    outline: none;
     
+} */
+.mainContainer>h1
+{
+text-align: center;
+padding: 10px;
+}
+.mainContainer{
+    background-color:white;
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 30px;
+    /* display: flex; */
+    box-sizing: border-box;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0;
+}
+textarea,input,button{
+    padding: 1rem;
+    font-size: 1.2em;
+    outline: none;
+    margin: 10px,0;
+}
+textarea,input,button{
+    margin-bottom: 5px;
 }
 button{
-    background-color: black;
-    color: aliceblue;
-    outline: auto;
-    height: 3%;
-    width: 5%;
-    
-    text-align: center;
+    background-color: rgb(117, 113, 113);
+    color: white;
+    transition: all 0.5s;
     cursor: pointer;
+    border: none;
+
+   
+    
+}
+#deletbtn{
+    border-radius: 50%;
+    background-color: crimson;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+    transition: all 0.5s;
+}
+button:hover,#deletbtn:hover{
+    background-color: blueviolet;
+    
+    
+}
+
+
+.task{
+    border: 2px solid gray;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+.task>div{
+    width: 100%;
+}
+.task span{
+    color:rgba(0, 0, 0, 0.527)
 }
