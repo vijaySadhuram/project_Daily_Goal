@@ -11,12 +11,12 @@ such as local storage, React Hooks (specifically useState and useEffect), and va
 
 ### Key Features:
 
-** Task Creation**: 
+**Task Creation**: 
 Users can add new tasks to the application by providing a task description. The entered task will 
 
 be validated to ensure it is not empty or contains only whitespace characters.
 
-**Task Deletion: **
+**Task Deletion:**
 Users can delete existing tasks from the application. Each task will have a 
 
 corresponding delete button, allowing users to remove tasks from the list.
