@@ -1,6 +1,6 @@
-### Task Management App using ReactJS with Local Storage, React Hooks (useState and useeffect)
+# Task Management App using ReactJS with Local Storage, React Hooks (useState and useeffect)
 
-# Live Demo
+### Live Demo
 
 https://watch.screencastify.com/v/e1Ff8wOaZ7qjlmn6XH2x
 
@@ -9,7 +9,7 @@ This project aims to create a Task Management application using ReactJS, incorpo
 
 such as local storage, React Hooks (specifically useState and useEffect), and validation.
 
-# Key Features:
+### Key Features:
 
 ** Task Creation**: 
 Users can add new tasks to the application by providing a task description. The entered task will 
