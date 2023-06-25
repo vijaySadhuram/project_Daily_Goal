@@ -1,4 +1,4 @@
-# Task Management App using ReactJS with Local Storage, React Hooks (useState and useeffect)
+# Daily Goal App using ReactJS with Local Storage, React Hooks (useState and useeffect)
 
 ### Live Demo
 
