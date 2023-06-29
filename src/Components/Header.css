@@ -4,7 +4,7 @@
     /* border: 2px solid crimson; */
 }
 body{
-    background-color: antiquewhite;
+    background-color: white;
     
 }
 nav{
@@ -14,6 +14,22 @@ nav{
    text-align: center;
       
    }
+
+.header{
+    color: black;
+    /* margin: 20px; */
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.295);
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+
+
+}
+.header>a{
+    text-decoration: none;
+    margin: 20px;
+   
+}
 /* input{
     outline: none;
     padding: 1rem;
@@ -25,9 +41,10 @@ nav{
 {
 text-align: center;
 padding: 10px;
+
 }
 .mainContainer{
-    background-color:white;
+    background-color: antiquewhite;
     width: 70%;
     min-height: 100vh;
     margin: auto;
@@ -93,3 +110,11 @@ button:hover,#deletbtn:hover{
 .task span{
     color:rgba(0, 0, 0, 0.527)
 }
+
+/* footer */
+.footer{
+    background-color:black;
+    padding: 20px;
+}
+
+
