@@ -9,9 +9,9 @@ function Header() {
     <div className='header'>
      
     <Link to="/">Home</Link>
-    <Link to="/about12">About</Link>
+    <Link to="/about">About</Link>
     <Link to="/contact">Contact</Link>
-    <Link to="/user/tenpid">User</Link>
+    <Link to="/user/12345">User</Link>
     </div>
 
     </>

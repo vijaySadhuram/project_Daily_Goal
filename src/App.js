@@ -13,25 +13,18 @@ function App() {
    < BrowserRouter>
      
      <Header/>
-     <Routes>
+    <Routes>
  
      <Route path='/' element={<Home/>}/>
-
-     <Route path='/about12' element={<About/>}/>
+     <Route path='/about' element={<About/>}/>
      <Route path='/contact' element={<Contact/>}/>
-     <Route path='/user/:123' element={<User/>}/>
-     <Route path='/user/:asd' element={<Contact/>}/>
      
-
-
+     <Route path='/user/:id' element={<User/>}/>
+    
      </Routes>
 
-
     <Footer/>
-     {/* <Home/>
-     <About/>
-     <Contact/>
-      */}
+     
     
     </BrowserRouter>
   )

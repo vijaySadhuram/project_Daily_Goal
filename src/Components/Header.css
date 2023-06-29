@@ -102,10 +102,11 @@ button:hover,#deletbtn:hover{
     display: flex;
     box-sizing: border-box;
     padding: 20px;
-    
+    margin: 2px;
 }
 .task>div{
     width: 100%;
+    
 }
 .task span{
     color:rgba(0, 0, 0, 0.527)
@@ -114,7 +115,7 @@ button:hover,#deletbtn:hover{
 /* footer */
 .footer{
     background-color:black;
-    padding: 20px;
+    padding: 30px;
 }
 
 
